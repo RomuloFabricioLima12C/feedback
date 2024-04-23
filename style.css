@@ -74,7 +74,8 @@ margin-bottom: 32px;
     color: var(--white);
     background-color: var(--ligh-grey);
     }
-    .card > button{
+    .card > a{
+    display: block;
     width: 100%;
     padding: 13px;
     background-color: var(--orange);
@@ -86,9 +87,11 @@ margin-bottom: 32px;
     color: var(--white);
     border-radius: 22px;
     transition: all ease-in-out 0.3s;
+    text-align: center;
+    text-decoration: none;
     }
 
-    .card > button:hover{
+    .card > a:hover{
         color: var(--orange);
         background-color: var(--white);
         cursor: pointer;
